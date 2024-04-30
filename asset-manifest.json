@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/games/static/css/main.a04e1b12.css",
+    "main.js": "/games/static/js/main.8b58ce16.js",
+    "static/js/453.114fd8a8.chunk.js": "/games/static/js/453.114fd8a8.chunk.js",
+    "static/media/rightBulltet.png": "/games/static/media/rightBulltet.eb4a4cce840fdda1a6c1.png",
+    "static/media/hammer.png": "/games/static/media/hammer.61da550cfa116417d447.png",
+    "static/media/men.png": "/games/static/media/men.d3ec0ecb1f7e162ea27e.png",
+    "static/media/opponnent.png": "/games/static/media/opponnent.a0a798c503fdbb6467f5.png",
+    "static/media/men2.png": "/games/static/media/men2.126187efa79382eabbeb.png",
+    "static/media/arkada.wav": "/games/static/media/arkada.01768d114e0331e6c05a.wav",
+    "static/media/platform.png": "/games/static/media/platform.623f1b1192470e82dc1f.png",
+    "static/media/boxer.wav": "/games/static/media/boxer.0c79e58d82e102350c70.wav",
+    "static/media/doodle.png": "/games/static/media/doodle.fc814152693a9fe950d6.png",
+    "static/media/heart.png": "/games/static/media/heart.dea4ec1b7ba05d24caa7.png",
+    "static/media/bonus.wav": "/games/static/media/bonus.e0a5f7555b339b9bec67.wav",
+    "static/media/spaceship.png": "/games/static/media/spaceship.eac7c2c3024b12fd3a16.png",
+    "static/media/tetris.png": "/games/static/media/tetris.fc1dd9d97179ec979958.png",
+    "static/media/invaders.mp3": "/games/static/media/invaders.1a67e9f48eb86e45755e.mp3",
+    "static/media/mole.png": "/games/static/media/mole.bf2c1af82a02ef4d1f88.png",
+    "static/media/doodle2.png": "/games/static/media/doodle2.2bee43ea5ee3a96fb4b9.png",
+    "static/media/flapp.png": "/games/static/media/flapp.433cc051ca3d41366913.png",
+    "static/media/whack-to-head.mp3": "/games/static/media/whack-to-head.3bf6bebfa9862022caa5.mp3",
+    "static/media/ground.png": "/games/static/media/ground.d973ef1bb48c343d41a0.png",
+    "static/media/plus.mp3": "/games/static/media/plus.660ed8e5eb5e70fa56ea.mp3",
+    "static/media/bullet.mp3": "/games/static/media/bullet.d52b40f11ff537473f7d.mp3",
+    "static/media/gameover.mp3": "/games/static/media/gameover.78d8cf1cba975ff7b178.mp3",
+    "static/media/images1.jpg": "/games/static/media/images1.5a376e95fe399e131987.jpg",
+    "index.html": "/games/index.html",
+    "main.a04e1b12.css.map": "/games/static/css/main.a04e1b12.css.map",
+    "main.8b58ce16.js.map": "/games/static/js/main.8b58ce16.js.map",
+    "453.114fd8a8.chunk.js.map": "/games/static/js/453.114fd8a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a04e1b12.css",
+    "static/js/main.8b58ce16.js"
+  ]
+}
