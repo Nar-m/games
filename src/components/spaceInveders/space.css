@@ -1,0 +1,35 @@
+.space-inveders{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-image: url('https://cdn.esahubble.org/archives/images/screen/heic1304c.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.space-inveders h1{
+    font-size: 4em;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.space-inveders #canvas{
+    background-color: black;
+    margin-top: 10px;
+}
+.space-inveders button{
+    padding: 12px 35px;
+    background-color: white;
+    color: black;
+    font-size: 19px;
+    border-radius: 5px;
+    margin-left: 8px;
+}

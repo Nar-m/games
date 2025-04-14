@@ -1,0 +1,166 @@
+.tictac-conteiner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: url('https://media.istockphoto.com/id/1292919739/vector/tic-tac-toe-school-game-colorful-seamless-pattern-for-fabric-and-print-on-the-paper.jpg?s=612x612&w=0&k=20&c=Q4gMspKHffPmhKuofb_Rb_WCD8uAgbsbXSKuWEcziM8=');
+}
+
+.tictac-conteiner .title {
+    font-size: 60px;
+    color: #26ffcb;
+    font-weight: 600;
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+.reset button {
+    padding: 14px 42px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+.tictac-conteiner p {
+    font-size: 38px;
+    color: #fff;
+}
+
+.tictac-conteiner .tict-tac {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tictac-conteiner .tictact-board {
+    height: 600px;
+    overflow: hidden;
+    width: 564px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.tictac-conteiner .tictact-board .boxes {
+    width: 180px;
+    height: 180px;
+    background: #1f3540;
+    border: 4px solid #0f1b21;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 7rem;
+    text-align: center;
+    font-weight: bold;
+    line-height: 150px;
+}
+
+.tictac-conteiner .tictact-board .strike {
+    position: absolute;
+    z-index: 1;
+    background-color: darkorange;
+}
+
+.strike-row-1 {
+    top: 15%;
+    width: 95%;
+    height: 4px;
+}
+
+.strike-row-2 {
+    top: 48%;
+    width: 95%;
+    height: 4px;
+}
+
+.strike-row-3 {
+    top: 83%;
+    width: 95%;
+    height: 4px;
+}
+
+.strike-column-1 {
+    left: 15%;
+    width: 4px;
+    height: 95%;
+}
+
+.strike-column-2 {
+    left: 48%;
+    width: 4px;
+    height: 95%;
+}
+
+.strike-column-3 {
+    left: 83%;
+    width: 4px;
+    height: 95%;
+}
+
+.strike-diagonal-1 {
+    transform: skewY(45deg);
+    width: 95%;
+    height: 4px;
+    top: 48%;
+}
+
+.strike-diagonal-2 {
+    transform: skewY(-45deg);
+    width: 95%;
+    height: 4px;
+    top: 48%;
+}
+
+.won-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.499);
+    transform: scale(0);
+}
+
+.won-modal.active {
+    transform: scale(1);
+}
+
+.won-modal .won-content {
+    max-width: 450px;
+    width: 100%;
+    padding: 60px 15px;
+    background-color: white;
+    border-radius: 1em;
+    margin: 15px auto;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translateY(-200px);
+    transition: transform ease-in-out 0.4s;
+}
+
+.won-modal .won-content.active {
+    transform: translateY(0);
+}
+.won-modal .won-content button{
+    margin: 0 5px;
+    padding: 13px 40px;
+    border-radius: 1rem;
+    color: white;
+    font-size: 18px;
+}
+.won-modal .won-content button:hover{
+    opacity: 0.6;
+}

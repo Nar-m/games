@@ -1,0 +1,40 @@
+.try-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.364);
+}
+
+.overlay {
+    max-width: 450px;
+    width: 100%;
+    padding: 70px 15px;
+    border-radius: 2rem;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.try-modal .btn{
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.try-modal .btn-exit{
+    background-color: #dc3545;
+    border-color: #dc3545;
+    margin-left: 10px;
+}

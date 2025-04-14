@@ -1,0 +1,9 @@
+#flappy-board{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQzAecnzn_dxQlm8WDgC5LtHFY3i1_bCQmTf62QG1jKw&s');
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,17 @@
+.start-conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://t3.ftcdn.net/jpg/03/23/88/08/360_F_323880864_TPsH5ropjEBo1ViILJmcFHJqsBzorxUB.jpg');
+}
+
+.start-conteiner .display-games {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+}

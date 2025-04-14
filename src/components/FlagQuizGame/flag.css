@@ -1,0 +1,164 @@
+.flag-conteiner {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-image: url('https://flagpedia.net/assets/yt-quiz-en.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag-conteiner .startflag {
+    display: flex;
+    flex-direction: column;
+}
+
+.flag-conteiner .startflag button {
+    width: 320px;
+    margin-top: 6px;
+    padding: 15px;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+    border-radius: 6px;
+    border: 4px solid rgb(219, 219, 223);
+}
+
+.flag-conteiner .startflag .flagstart {
+    background-color: green;
+}
+
+.flag-conteiner .startflag .flagExit {
+    background-color: red;
+}
+
+.flag-content {
+    transition: transform ease-in-out 0.3s;
+    animation: scale 0.7s linear;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(75, 142, 76);
+    align-items: center;
+    width: 380px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.flag-content button {
+    background-color: rgb(135, 135, 248);
+    padding: 12px 22px;
+    color: white;
+    border-radius: 2px;
+    font-family: 'poopins', sans-serif;
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+.flag-content button:hover {
+    opacity: 1;
+}
+
+.flag-content .results {
+    font-size: 25px;
+    padding: 6px;
+    margin-top: 6px;
+    text-align: center;
+
+}
+
+.flag-content .score {
+    font-size: 18px;
+    font-family: 'poppins', sans-serif;
+    color: white;
+    padding-top: 5px;
+}
+
+.flag-content .wraong-item {
+    width: 100%;
+    margin-top: 8px;
+    background-color: white;
+    padding: 12px;
+    color: black;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.flag-content .indexlength {
+    font-size: 18px;
+    color: white;
+    font-family: 'poopins', sans-serif;
+}
+
+.flag-content img {
+    width: 100%;
+}
+
+.effect-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.475);
+    z-index: 10;
+}
+
+.effect-modal .effect-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 550px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: white;
+}
+
+.effect-modal .effect-content h1 {
+    font-size: 2em;
+    color: black;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    margin-bottom: 15px;
+}
+
+.effect-modal .effect-content span {
+    font-size: 20px;
+    color: greenyellow;
+    font-family: 'poppins', sans-serif;
+}
+
+.effect-modal .effect-content .evalute {
+    color: orchid;
+}
+
+.effect-modal .effect-content button {
+    padding: 12px 30px;
+    border-radius: 2px;
+    font-family: 'poppins', sans-serif;
+    font-size: 17px;
+    color: white;
+    margin-left: 8px;
+}

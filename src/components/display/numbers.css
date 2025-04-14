@@ -1,0 +1,101 @@
+
+.string-conteiner{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #7786f5;
+    z-index: 10;
+}
+.string-conteiner .colm{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 37em;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 7em 3em;
+    transform: translate(-50%, -50%);
+    border-radius: 1em;
+    text-align: center;
+}
+.string-conteiner .count{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+    font-family: 'poppins', sans-serif;
+}
+.string-conteiner .colm .results{
+    font-size: 19px;
+    font-weight: 500;
+    font-family: 'poppins', sans-serif;
+}
+.string-conteiner .colm .randomworld{
+    margin-bottom: 15px;
+}
+.InputSpace{
+    margin: 0 8px;
+}
+.string-conteiner .colm #letter-conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8em 0.4em;
+    margin-top: 12px;
+    justify-content: center;
+}
+.string-conteiner .colm #letter-conteiner button{
+    background-color: #ffffff;
+    border: 2px solid #7786f5;
+    color: #7786f5;
+    border-radius: 0.3em;
+    height: 3em;
+    width: 3em;
+}
+.string-conteiner .colm #letter-conteiner button.active{
+    background-color: green;
+    color: white;
+}
+.modal{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 10;
+   background-color: rgba(0, 0, 0, 0.603);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.modal .modal-message{
+    max-width: 620px;
+    width: 100%;
+    padding: 13px;
+    border-radius: 1em;
+    background-color: white;
+    box-shadow: 0 0px 0px 3px 5px rgba(0, 0, 0, 0.603);
+}
+.modal .fi-times span{
+    font-size: 42px;
+    cursor: pointer;
+    font-weight: 600;
+    color: rgb(171, 169, 169);
+}
+.modal .modal-message button{
+    margin: 0 7px;
+    padding: 12px 25px;
+    border-radius: 1em;
+    background-color: rgba(171, 169, 169, 0.403);
+    color: black;
+}
+.modal .modal-message button:nth-child(1){
+    box-shadow: 0 3px 0 green;
+}
+.modal .modal-message button:nth-child(2){
+    box-shadow: 0 3px 0 red;
+}
+.modal .modal-message button:active{
+    box-shadow: none;
+}

@@ -1,0 +1,90 @@
+.whack-conteiner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-color: rgba(58, 129, 0);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.whack-conteiner .whack-title .score {
+    font-size: 4em;
+    margin-bottom: .5em;
+}
+
+.whack-conteiner .whack-board {
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 80px;
+}
+
+.whack-conteiner .whack-board .hole {
+    background-color: rgb(165, 85, 11);
+    border-radius: 50%;
+    box-shadow: inset 0 10px 0 7px rgb(53, 21, 6),
+        inset 0 20px 20px 15px rgb(0, 0, 0, 0.3),
+        inset 0 0 5px rgb(0, 0, 0, .5);
+    position: relative;
+    overflow: hidden;
+}
+
+.whack-conteiner .whack-board .hole .mole {
+    width: 70%;
+    left: 50%;
+    position: absolute;
+    transition: transform .1s ease-in-out;
+    transform: translateX(-50%) translateY(-100%);
+    pointer-events: fill;
+    bottom: 0;
+    transform: transform .5s ease-in-out;
+}
+
+.whack-conteiner .whack-board .hole .mole.active {
+    transform: translateX(-50%) translateY(0);
+}
+.whack-conteiner .cursor {
+    position: absolute;
+    height: 250px;
+    background-size: 100% 100%;
+    width: 250px;
+    top: 100px;
+    left: 100px;
+    background-image: url('../images/hammer.png');
+    transition: transform .1s;
+    transform: translate(-20%, -20%);
+    pointer-events: none;
+}
+
+.whack-conteiner .cursor.active {
+    transform: translate(-20%, -20%) rotate(-45deg);
+}
+
+.whack-conteiner .start-game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+}
+
+.whack-conteiner .start-game button {
+    background-color: white;
+    padding: 13px 42px;
+    color: red;
+    font-size: 19px;
+    font-weight: 600;
+    margin: 0 8px;
+    border: 1px solid white;
+}
+
+.whack-conteiner .start-game button:hover {
+    background: transparent;
+}
